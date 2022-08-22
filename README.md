@@ -29,7 +29,6 @@ pragma solidity =0.8.4;
 ```
 
 [https://swcregistry.io/docs/SWC-103](https://swcregistry.io/docs/SWC-103)
-
 [https://github.com/Uniswap/v3-core/blob/main/contracts/UniswapV3Pool.sol#L2](https://github.com/Uniswap/v3-core/blob/main/contracts/UniswapV3Pool.sol#L2)
 
 ## 3. **Multiple Solidity pragma**
@@ -74,9 +73,7 @@ function setOwner() public {
 ```
 
 [https://docs.openzeppelin.com/contracts/3.x/api/access](https://docs.openzeppelin.com/contracts/3.x/api/access)
-
 [https://dasp.co/#item-2](https://dasp.co/#item-2)
-
 [https://solidity-by-example.org/error/](https://solidity-by-example.org/error/)
 
 ## 5. **Unprotected withdraw function**
@@ -105,7 +102,6 @@ function withdraw(address user, uint256 numTokens) public {
 ```
 
 [https://swcregistry.io/docs/SWC-105](https://swcregistry.io/docs/SWC-105)
-
 [https://solidity-by-example.org/defi/vault/](https://solidity-by-example.org/defi/vault/)
 
 ## 6. **Unprotected call to *selfdestruct***
@@ -147,11 +143,8 @@ contract Good {
 ```
 
 [https://swcregistry.io/docs/SWC-106](https://swcregistry.io/docs/SWC-106)
-
 [https://solidity-by-example.org/delegatecall/](https://solidity-by-example.org/delegatecall/)
-
 [https://solidity-by-example.org/hacks/self-destruct/](https://solidity-by-example.org/hacks/self-destruct/)
-
 [https://medium.com/coinmonks/delegatecall-calling-another-contract-function-in-solidity-b579f804178c](https://medium.com/coinmonks/delegatecall-calling-another-contract-function-in-solidity-b579f804178c)
 
 ## 7. **Modifier side-effects**
@@ -185,5 +178,4 @@ contract GoodGirl {
 ```
 
 [https://consensys.net/blog/developers/solidity-best-practices-for-smart-contract-security/](https://consensys.net/blog/developers/solidity-best-practices-for-smart-contract-security/)
-
 [https://docs.soliditylang.org/en/develop/security-considerations.html#use-the-checks-effects-interactions-pattern](https://docs.soliditylang.org/en/develop/security-considerations.html#use-the-checks-effects-interactions-pattern)
