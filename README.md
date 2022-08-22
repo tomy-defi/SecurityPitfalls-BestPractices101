@@ -173,7 +173,7 @@ contract GoodGirl {
         require(love[msg.sender],"Insufficient Love, try again");
         _;
     }
-    function check() isCheck(msg.sender) public {}
+    function check() isCheck(msg.sender) private {}
 }
 ```
 
