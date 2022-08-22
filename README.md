@@ -168,9 +168,9 @@ contract BadGirl {
 
 /* 🙆‍♂️ */
 contract GoodGirl {
-		mapping(address => bool) love;
+    mapping(address => bool) private isLove;
     modifier isCheck(address _addr) {
-        require(love[msg.sender],"Insufficient Love, try again");
+        require(isLove[msg.sender],"Insufficient Love, try again");
         _;
     }
     function check() isCheck(msg.sender) private {}
